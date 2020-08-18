@@ -1,1 +1,1 @@
-# content-type-research
+# Content Type Research
