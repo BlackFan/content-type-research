@@ -10,7 +10,7 @@ Examples of incorrect Content-Type parsing that can be used for CSRF.
 For example, the ability to send an HTTP request that will be interpreted as JSON without a CORS preflight request.  
 Can be used in combination with attacks requiring boolean or array in HTTP request (PHP Type Juggling, NoSQL Injection, Prototype Pollution, ...)
 
- * [Difference of Content-Type processing in browsers](ct-tricks/Browsers.md)
+ * [Difference of Content-Type processing in browsers](Browsers.md)
  * [Laravel JSON parsing](ct-tricks/Laravel.md)
  * [Laminas, Mezzio, Zend Framework JSON parsing](ct-tricks/Mezzio.md)
 
