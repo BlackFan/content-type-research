@@ -1,3 +1,5 @@
+* In 2020 ![EdgeHTML](https://black.fan/bl/edgehtml) was rebuilt as a ![Chromium](https://black.fan/bl/chromium)-based browser ![Edge](https://black.fan/bl/edge) and now has the same results as ![Chrome](https://black.fan/bl/chrome)
+
 ## Content-Type that can be used for XSS
 
 **Conditions:**
@@ -19,7 +21,7 @@
 | text/vtt                      | html           | ![EdgeHTML](https://black.fan/bl/edgehtml)                                                                                 | x   |
 | text/cache-manifest           | html           | ![EdgeHTML](https://black.fan/bl/edgehtml)                                                                                 | x   |
 
-## Content-Type Tricks
+## Response Content-Type Tricks
 
 | Trick                 | Separators | Example                              | Browsers | PoC |
 |-----------------------|------------|--------------------------------------|----------|-----|

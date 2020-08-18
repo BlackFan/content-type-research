@@ -1,5 +1,8 @@
 ### PHP 7.4.9 and below
-**Incorrect boundary parsing**
+**Incorrect boundary parsing**  
+Attack payload can be hidden from WAF in file
+
+**HTTP Request**
 ```http
 POST / HTTP/1.1
 Host: localhost
