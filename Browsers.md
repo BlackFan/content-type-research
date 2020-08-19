@@ -58,7 +58,7 @@ xhr.send("test");
 ### sendBeacon, fetch, XMLHttpRequest blob
 
 ```
-ct = 'text/plain';
+ct = '$Content-Type$';
 blob = new Blob(["test"], {type: ct});
 
 fetch("http://localhost/", { 
@@ -113,8 +113,8 @@ xhr.send("test");
 
 :heavy_minus_sign: - CORS preflight request
 
-| Content-Type | ![Chrome](https://black.fan/bl/chrome) | ![Firefox](https://black.fan/bl/firefox) | ![EdgeHTML](https://black.fan/bl/edgehtml) | ![Safari](https://black.fan/bl/safari) |
-|--------------|----------------------------------------|------------------------------------------|--------------------------------------------|----------------------------------------|
+| Content-Type                      | ![Chrome](https://black.fan/bl/chrome) | ![Firefox](https://black.fan/bl/firefox) | ![EdgeHTML](https://black.fan/bl/edgehtml) | ![Safari](https://black.fan/bl/safari) |
+|-----------------------------------|----------------------------------------|------------------------------------------|--------------------------------------------|----------------------------------------|
 | text/plain<br>multipart/form-data | :heavy_minus_sign: | fetch: multipart/form-data<br>xhr: :heavy_minus_sign: | text/plain, multipart/form-data | :heavy_minus_sign: |
-| text/plain<br>application/json | :heavy_minus_sign: | :heavy_minus_sign: | text/plain, application/json | :heavy_minus_sign: |
-| application/json<br>text/plain | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: |
+| text/plain<br>application/json    | :heavy_minus_sign: | :heavy_minus_sign:                                    | text/plain, application/json    | :heavy_minus_sign: |
+| application/json<br>text/plain    | :heavy_minus_sign: | :heavy_minus_sign:                                    | :heavy_minus_sign:              | :heavy_minus_sign: |

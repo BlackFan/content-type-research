@@ -23,9 +23,9 @@
 
 ## Response Content-Type Tricks
 
-| Trick                 | Separators | Example                              | Browsers | PoC |
-|-----------------------|------------|--------------------------------------|----------|-----|
-| Multiple Content-Type | ,          | Content-Type: text/plain;, text/html | ![Chrome](https://black.fan/bl/chrome) ![Firefox](https://black.fan/bl/firefox)                                            | x  |
-| Mime-type separators  | 0x09 (     | Content-Type: text/html(xxx          | ![Chrome](https://black.fan/bl/chrome) ![Firefox](https://black.fan/bl/firefox)                                            | x  |
-| Mime-type separators  | 0x20       | Content-Type: text/html xxx          | ![Chrome](https://black.fan/bl/chrome) ![Firefox](https://black.fan/bl/firefox) ![EdgeHTML](https://black.fan/bl/edgehtml) | x  |
-| Mime-type separators  | , ;        | Content-Type: text/html,xxx          | ![Chrome](https://black.fan/bl/chrome) ![Firefox](https://black.fan/bl/firefox) ![EdgeHTML](https://black.fan/bl/edgehtml) ![Safari](https://black.fan/bl/safari) | x  |
+| Trick                 | Separators | Example                              | Browsers |
+|-----------------------|------------|--------------------------------------|----------|
+| Multiple Content-Type | ,          | Content-Type: text/plain;, text/html | ![Chrome](https://black.fan/bl/chrome) ![Firefox](https://black.fan/bl/firefox)                                            |
+| Mime-type separators  | 0x09 (     | Content-Type: text/html(xxx          | ![Chrome](https://black.fan/bl/chrome) ![Firefox](https://black.fan/bl/firefox)                                            |
+| Mime-type separators  | 0x20       | Content-Type: text/html xxx          | ![Chrome](https://black.fan/bl/chrome) ![Firefox](https://black.fan/bl/firefox) ![EdgeHTML](https://black.fan/bl/edgehtml) |
+| Mime-type separators  | , ;        | Content-Type: text/html,xxx          | ![Chrome](https://black.fan/bl/chrome) ![Firefox](https://black.fan/bl/firefox) ![EdgeHTML](https://black.fan/bl/edgehtml) ![Safari](https://black.fan/bl/safari) |

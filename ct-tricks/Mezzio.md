@@ -1,6 +1,6 @@
 ### Laminas, Mezzio, Zend Framework
 
-**Vulnerable endpoint**
+**Endpoint**
 ```php
 $app->pipe(BodyParamsMiddleware::class);
 ...
@@ -48,7 +48,8 @@ Content-Length: 13
 
 {"test":true}
 ```
-**JS CSRF PoC**
+
+**CSRF PoC**
 ```html
 <script>
   fetch('http://localhost/json',{
