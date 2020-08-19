@@ -30,9 +30,10 @@ Can be used in combination with attacks requiring boolean or array in HTTP reque
 
 **Interesting results**
  * [PHP multipart boundary parsing](ct-tricks/PHP.md)
- * [Laravel JSON parsing](ct-tricks/Laravel.md)
- * [Symfony JSON/XML parsing](ct-tricks/Symfony.md)
- * [Laminas, Mezzio, Zend Framework JSON parsing](ct-tricks/Mezzio.md)
+ * [Laravel JSON Content-Type parsing](ct-tricks/Laravel.md)
+ * [Symfony JSON/XML Content-Type parsing](ct-tricks/Symfony.md)
+ * [Laminas, Mezzio, Zend Framework JSON Content-Type parsing](ct-tricks/Mezzio.md)
+ * [CherryPy multipart & JSON Content-Type parsing](ct-tricks/CherryPy.md)
 
 ## Programming languages / Frameworks
 
@@ -48,3 +49,4 @@ Can be used in combination with attacks requiring boolean or array in HTTP reque
 | [CodeIgniter](ct-tricks/CodeIgniter.md)       | :question:         | :question:         |
 | [Django](ct-tricks/Django.md)                 | :question:         | :question:         |
 | [Flask](ct-tricks/Flask.md)                   |                    | :heavy_check_mark: |
+| [CherryPy](ct-tricks/CherryPy.md)             |                    | :heavy_check_mark: |
