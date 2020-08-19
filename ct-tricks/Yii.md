@@ -31,4 +31,4 @@ application/json;XXX
 ```
 
 **CSRF**  
-Without additional checks, an attacker can change JSON requests to `application/x-www-form-urlencoded`
+Without additional checks, an attacker can change `application/json` requests to `application/x-www-form-urlencoded` body encoding

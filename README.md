@@ -43,4 +43,8 @@ Can be used in combination with attacks requiring boolean or array in HTTP reque
 | [Symfony](ct-tricks/Symfony.md)               |                    | :heavy_check_mark: |
 | [Laminas, Mezzio, Zend](ct-tricks/Mezzio.md)  | :heavy_check_mark: | :heavy_check_mark: |
 | [Yii](ct-tricks/Yii.md)                       | :question:         |                    |
-| [Wordpress](ct-tricks/Wordpress.md)           | :question:         |                    |
+| [Wordpress](ct-tricks/Wordpress.md)           | :question:         | :question:         |
+| [CakePHP](ct-tricks/CakePHP.md)               | :question:         | :question:         |
+| [CodeIgniter](ct-tricks/CodeIgniter.md)       | :question:         | :question:         |
+| [Django](ct-tricks/Django.md)                 | :question:         | :question:         |
+| [Flask](ct-tricks/Flask.md)                   |                    | :heavy_check_mark: |
