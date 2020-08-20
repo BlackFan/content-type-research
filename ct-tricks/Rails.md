@@ -49,8 +49,7 @@ Content-Disposition: form-data; name="q"
 --wafboundary--
 ```
 
-**JSON Content-Type**  
-Strict parsing by default
+**JSON Content-Type**
 ```
 application/json,XXX
 text/x-json,XXX

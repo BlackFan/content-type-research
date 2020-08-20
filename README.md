@@ -35,6 +35,7 @@ Can be used in combination with attacks requiring boolean or array in HTTP reque
  * [Laminas, Mezzio, Zend Framework JSON Content-Type parsing](ct-tricks/Mezzio.md)
  * [Flask JSON Content-Type parsing](ct-tricks/Flask.md)
  * [CherryPy multipart & JSON Content-Type parsing](ct-tricks/CherryPy.md)
+ * [Express multer](ct-tricks/Express_multer.md)
  * [Rails multipart & JSON Content-Type parsing](ct-tricks/Rails.md)
 
 ## Programming languages / Frameworks
