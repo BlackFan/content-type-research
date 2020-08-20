@@ -25,7 +25,7 @@
 
 | Trick                 | Separators | Example                              | Browsers | PoC |
 |-----------------------|------------|--------------------------------------|----------|-----|
-| Multiple Content-Type | ,          | Content-Type: text/plain; x=x, text/html, foobar | ![Chrome](https://black.fan/bl/chrome) ![Firefox](https://black.fan/bl/firefox)                                | [link](https://blackfan.ru/mime-type/multiple-content-type.php) |
+| Multiple Content-Type | ,          | [Fetch Spec: Example Extract a Mime Type](https://fetch.spec.whatwg.org/#example-extract-a-mime-type)<br>Content-Type: text/plain; x=x, text/html, foobar | ![Chrome](https://black.fan/bl/chrome) ![Firefox](https://black.fan/bl/firefox)                                | [link](https://blackfan.ru/mime-type/multiple-content-type.php) |
 | Mime-type separators  | 0x09 (     | Content-Type: text/html(xxx          | ![Chrome](https://black.fan/bl/chrome) ![Firefox](https://black.fan/bl/firefox)                                            | [0x09](https://blackfan.ru/mime-type/0x09-content-type.php) [0x28](https://blackfan.ru/mime-type/0x28-content-type.php) |
 | Mime-type separators  | 0x20       | Content-Type: text/html xxx          | ![Chrome](https://black.fan/bl/chrome) ![Firefox](https://black.fan/bl/firefox) ![EdgeHTML](https://black.fan/bl/edgehtml) | [0x20](https://blackfan.ru/mime-type/0x20-content-type.php) |
 | Mime-type separators  | , ;        | Content-Type: text/html,xxx          | ![Chrome](https://black.fan/bl/chrome) ![Firefox](https://black.fan/bl/firefox) ![EdgeHTML](https://black.fan/bl/edgehtml) ![Safari](https://black.fan/bl/safari) | [0x2C](https://blackfan.ru/mime-type/0x2C-content-type.php) |

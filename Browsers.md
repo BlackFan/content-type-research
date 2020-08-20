@@ -20,7 +20,7 @@ CORS-safelisted content-types: `application/x-www-form-urlencoded`, `multipart/f
 
 | Symbol     | Browsers | Example  |
 |------------|----------|----------|
-| [CORS-unsafe request-header byte](https://fetch.spec.whatwg.org/#cors-unsafe-request-header-byte)<br>0x01-0x08 0x0E-0x1F : < > ? @ [ \ ] { } 0x7F | ![EdgeHTML](https://black.fan/bl/edgehtml) | Content-Type: text/plain;&lt;xxx |
+| [Fetch Spec: CORS-unsafe request-header byte](https://fetch.spec.whatwg.org/#cors-unsafe-request-header-byte)<br>0x01-0x08 0x0E-0x1F : < > ? @ [ \ ] { } 0x7F | ![EdgeHTML](https://black.fan/bl/edgehtml) | Content-Type: text/plain;&lt;xxx |
 | 0x09 0x20 ! # $ % & ' * + - . / 0-9 ; = A-Z ^ _ \` a-z \| ~ | ![Chrome](https://black.fan/bl/chrome) ![Firefox](https://black.fan/bl/firefox) ![EdgeHTML](https://black.fan/bl/edgehtml) ![Safari](https://black.fan/bl/safari) | Content-Type: text/plain;#xxx |
 | , 0x80-0xFF | ![Chrome](https://black.fan/bl/chrome) ![EdgeHTML](https://black.fan/bl/edgehtml) ![Safari](https://black.fan/bl/safari) | Content-Type: text/plain;,xxx |
 
