@@ -26,7 +26,7 @@ CORS-safelisted content-types: `application/x-www-form-urlencoded`, `multipart/f
 
 ### fetch, XMLHttpRequest headers
 
-```
+```js
 fetch("http://localhost/", {
   method: "POST", 
   headers: {
@@ -37,7 +37,7 @@ fetch("http://localhost/", {
 });
 ```
 
-```
+```js
 xhr = new XMLHttpRequest();
 xhr.open("POST", "http://localhost/", true);
 xhr.setRequestHeader("Content-Type", "$Content-Type$");
@@ -60,7 +60,7 @@ xhr.send("test");
 
 ### sendBeacon, fetch, XMLHttpRequest blob
 
-```
+```js
 ct = '$Content-Type$';
 blob = new Blob(["test"], {type: ct});
 
@@ -93,7 +93,7 @@ xhr.send(blob);
 
 ### fetch, XMLHttpRequest multiple Content-Type
 
-```
+```js
 fetch("https://localhost/", {
   method: "POST",
   headers: [
@@ -105,7 +105,7 @@ fetch("https://localhost/", {
 });
 ```
 
-```
+```js
 xhr = new XMLHttpRequest();
 xhr.open("POST", "https://localhost/", true);
 xhr.setRequestHeader("Content-Type", "text/plain");

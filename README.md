@@ -52,4 +52,4 @@ Can be used in combination with attacks requiring boolean or array in HTTP reque
 | [Flask](ct-tricks/Flask.md)                               |                    | :heavy_check_mark: |
 | [CherryPy](ct-tricks/CherryPy.md)                         |                    | :heavy_check_mark: |
 | [Express body-parser](ct-tricks/Express_body-parser.md)   |                    |                    |
-| [Express multer](ct-tricks/Express_body-parser.md)        |                    | :heavy_check_mark: |
+| [Express multer](ct-tricks/Express_multer.md)             |                    | :heavy_check_mark: |
