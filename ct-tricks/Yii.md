@@ -11,7 +11,7 @@ public function actionIndex() {
 **Source code** ([/yiisoft/yii2/framework/web/Request.php](https://github.com/yiisoft/yii2/blob/175a20100496b46952f0226385880d17d0ed5cbb/framework/web/Request.php#L551-L573))
 ```php
 public function getBodyParams() {
-	...
+  ...
   $rawContentType = $this->getContentType();
   if (($pos = strpos($rawContentType, ';')) !== false) {
     $contentType = substr($rawContentType, 0, $pos);
@@ -32,3 +32,6 @@ application/json;XXX
 
 **CSRF**  
 Without additional checks, an attacker can change `application/json` requests to `application/x-www-form-urlencoded` body encoding
+
+**Multipart Content-Type**  
+Same as [PHP](ct-tricks/PHP.md)

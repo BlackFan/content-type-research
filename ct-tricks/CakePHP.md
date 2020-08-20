@@ -18,3 +18,6 @@ public function input(?callable $callback = null, ...$args)
 
 **JSON Content-Type**  
 Doesn't have built-in Content-Type checking functionality, attacker can use `application/x-www-form-urlencoded` Content-Type with JSON body.
+
+**Multipart Content-Type**  
+Same as [PHP](ct-tricks/PHP.md)

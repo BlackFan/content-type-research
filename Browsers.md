@@ -65,9 +65,9 @@ ct = '$Content-Type$';
 blob = new Blob(["test"], {type: ct});
 
 fetch("http://localhost/", { 
-	method: 'POST', 
+  method: 'POST', 
   credentials: "include",
-	body: blob 
+  body: blob 
 });
 
 navigator.sendBeacon("http://localhost/", blob);

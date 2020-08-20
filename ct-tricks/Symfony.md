@@ -49,3 +49,6 @@ Content-Length: 13
 
 {"test":true}
 ```
+
+**Multipart Content-Type**  
+Same as [PHP](ct-tricks/PHP.md)

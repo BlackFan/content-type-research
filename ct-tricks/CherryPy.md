@@ -24,19 +24,26 @@ processors = {'application/x-www-form-urlencoded': process_urlencoded,
 def json_in(content_type=[ntou('application/json'), ntou('text/javascript')],
 ```
 
-**Default Content-Type**
+**Content-Type**
 ```
 application/x-www-form-urlencoded
 multipart/form-data
 multipart
 ```
 
+**Multipart Content-Type**
+| Check             | Value            |
+|-------------------|------------------|
+| Mime-Type         | case-sensitive   |
+| Multiple boundary | last position    |
+| Boundary key      | case-insensitive |
+
 **HTTP Request**
-```
+```http
 POST / HTTP/1.1
 Host: localhost
-Content-Type: multipart; boundary=xxx
-Content-Length: 69
+Content-Type: multipart; boundary=yyy; BoUndary=xxx
+Content-Length: 67
 
 --xxx
 Content-Disposition: form-data; name="test"

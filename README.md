@@ -40,14 +40,16 @@ Can be used in combination with attacks requiring boolean or array in HTTP reque
 
 | Name | CSRF friendly | WAF Bypass friendly |
 |------|---------------|---------------------|
-| [PHP](ct-tricks/PHP.md)                       |                    | :heavy_check_mark: |
-| [Laravel](ct-tricks/Laravel.md)               | :heavy_check_mark: | :heavy_check_mark: |
-| [Symfony](ct-tricks/Symfony.md)               |                    | :heavy_check_mark: |
-| [Laminas, Mezzio, Zend](ct-tricks/Mezzio.md)  | :heavy_check_mark: | :heavy_check_mark: |
-| [Yii](ct-tricks/Yii.md)                       | :question:         |                    |
-| [Wordpress](ct-tricks/Wordpress.md)           | :question:         | :question:         |
-| [CakePHP](ct-tricks/CakePHP.md)               | :question:         | :question:         |
-| [CodeIgniter](ct-tricks/CodeIgniter.md)       | :question:         | :question:         |
-| [Django](ct-tricks/Django.md)                 | :question:         | :question:         |
-| [Flask](ct-tricks/Flask.md)                   |                    | :heavy_check_mark: |
-| [CherryPy](ct-tricks/CherryPy.md)             |                    | :heavy_check_mark: |
+| [PHP](ct-tricks/PHP.md)                                   |                    | :heavy_check_mark: |
+| [Laravel](ct-tricks/Laravel.md)                           | :heavy_check_mark: | :heavy_check_mark: |
+| [Symfony](ct-tricks/Symfony.md)                           |                    | :heavy_check_mark: |
+| [Laminas, Mezzio, Zend](ct-tricks/Mezzio.md)              | :heavy_check_mark: | :heavy_check_mark: |
+| [Yii](ct-tricks/Yii.md)                                   | :question:         |                    |
+| [Wordpress](ct-tricks/Wordpress.md)                       | :question:         | :question:         |
+| [CakePHP](ct-tricks/CakePHP.md)                           | :question:         | :question:         |
+| [CodeIgniter](ct-tricks/CodeIgniter.md)                   | :question:         | :question:         |
+| [Django](ct-tricks/Django.md)                             | :question:         | :heavy_check_mark: |
+| [Flask](ct-tricks/Flask.md)                               |                    | :heavy_check_mark: |
+| [CherryPy](ct-tricks/CherryPy.md)                         |                    | :heavy_check_mark: |
+| [Express body-parser](ct-tricks/Express_body-parser.md)   |                    |                    |
+| [Express multer](ct-tricks/Express_body-parser.md)        |                    | :heavy_check_mark: |

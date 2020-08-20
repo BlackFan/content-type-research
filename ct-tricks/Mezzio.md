@@ -60,3 +60,6 @@ Content-Length: 13
   })
 </script>
 ```
+
+**Multipart Content-Type**  
+Same as [PHP](ct-tricks/PHP.md)

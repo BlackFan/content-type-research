@@ -60,3 +60,6 @@ Not a bug, but can be mistakenly used to check Content-Type
   });
 </script>
 ```
+
+**Multipart Content-Type**  
+Same as [PHP](ct-tricks/PHP.md)
