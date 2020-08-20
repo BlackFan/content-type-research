@@ -16,4 +16,4 @@ public function getJSON(bool $assoc = false, int $depth = 512, int $options = 0)
 Doesn't have built-in Content-Type checking functionality, attacker can use `application/x-www-form-urlencoded` Content-Type with JSON body.
 
 **Multipart Content-Type**  
-Same as [PHP](ct-tricks/PHP.md)
+Same as [PHP](/ct-tricks/PHP.md)

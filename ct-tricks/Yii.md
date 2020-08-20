@@ -34,4 +34,4 @@ application/json;XXX
 Without additional checks, an attacker can change `application/json` requests to `application/x-www-form-urlencoded` body encoding
 
 **Multipart Content-Type**  
-Same as [PHP](ct-tricks/PHP.md)
+Same as [PHP](/ct-tricks/PHP.md)

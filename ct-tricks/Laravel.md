@@ -43,4 +43,4 @@ Content-Length: 13
 ```
 
 **Multipart Content-Type**  
-Same as [PHP](ct-tricks/PHP.md)
+Same as [PHP](/ct-tricks/PHP.md)

@@ -62,4 +62,4 @@ Not a bug, but can be mistakenly used to check Content-Type
 ```
 
 **Multipart Content-Type**  
-Same as [PHP](ct-tricks/PHP.md)
+Same as [PHP](/ct-tricks/PHP.md)
