@@ -35,6 +35,7 @@ Can be used in combination with attacks requiring boolean or array in HTTP reque
  * [Laminas, Mezzio, Zend Framework JSON Content-Type parsing](ct-tricks/Mezzio.md)
  * [Flask JSON Content-Type parsing](ct-tricks/Flask.md)
  * [CherryPy multipart & JSON Content-Type parsing](ct-tricks/CherryPy.md)
+ * [Rails multipart & JSON Content-Type parsing](ct-tricks/Rails.md)
 
 ## Programming languages / Frameworks
 
@@ -53,3 +54,4 @@ Can be used in combination with attacks requiring boolean or array in HTTP reque
 | [CherryPy](ct-tricks/CherryPy.md)                         |                    | :heavy_check_mark: |
 | [Express body-parser](ct-tricks/Express_body-parser.md)   |                    |                    |
 | [Express multer](ct-tricks/Express_multer.md)             |                    | :heavy_check_mark: |
+| [Rails](ct-tricks/Rails.md)                               |                    | :heavy_check_mark: |
