@@ -33,6 +33,7 @@ Can be used in combination with attacks requiring boolean or array in HTTP reque
  * [Laravel JSON Content-Type parsing](ct-tricks/Laravel.md)
  * [Symfony JSON/XML Content-Type parsing](ct-tricks/Symfony.md)
  * [Laminas, Mezzio, Zend Framework JSON Content-Type parsing](ct-tricks/Mezzio.md)
+ * [Flask JSON Content-Type parsing](ct-tricks/Flask.md)
  * [CherryPy multipart & JSON Content-Type parsing](ct-tricks/CherryPy.md)
 
 ## Programming languages / Frameworks

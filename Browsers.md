@@ -2,7 +2,10 @@
 
 ## Content-Type in cross origin requests
 
-
+Browsers can send a cross origin request without `OPTIONS` preflight only for safe requests.  
+CORS-safelisted methods: `GET`, `HEAD`, `POST`  
+CORS-safelisted request-headers: `Accept`, `Accept-Language`, `Content-Language`, `Content-Type`  
+CORS-safelisted content-types: `application/x-www-form-urlencoded`, `multipart/form-data`, `text/plain`  
 
 ## Request Content-Type Tricks
 
