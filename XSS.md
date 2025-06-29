@@ -16,7 +16,7 @@
 | text/xsl **(UPD 2024)**       | html           | ![Chrome](https://black.fan/bl/chrome.php)                                                   | [link](https://blackfan.ru/mime-type/text-xsl-html.php)                 |
 | application/vnd.wap.xhtml+xml | xml            | ![Firefox](https://black.fan/bl/firefox.php) ![Safari](https://black.fan/bl/safari.php)      | [link](https://blackfan.ru/mime-type/application-vnd-wap-xhtml-xml.php) |
 | multipart/x-mixed-replace     | multipart html | ![Firefox](https://black.fan/bl/firefox.php) ![Safari](https://black.fan/bl/safari.php)      | [link](https://blackfan.ru/mime-type/multipart-x-mixed-replace.php)     |
-| text/rdf                      | xml            | ![Firefox](https://black.fan/bl/firefox.php)                                             | [link](https://blackfan.ru/mime-type/text-rdf.php)                      |
+| <s>text/rdf</s> **(UPD 2024)**| xml            | ![Firefox](https://black.fan/bl/firefox.php)                                             | [link](https://blackfan.ru/mime-type/text-rdf.php)                </s>      |
 | application/rdf+xml           | xml            | ![Firefox](https://black.fan/bl/firefox.php)                                             | [link](https://blackfan.ru/mime-type/application-rdf-xml.php)           |
 | application/mathml+xml        | xml            | ![Firefox](https://black.fan/bl/firefox.php)                                             | [link](https://blackfan.ru/mime-type/application-mathml-xml.php)        |
 | text/vtt                      | html           | ![EdgeHTML](https://black.fan/bl/edgehtml.php)                                           | [link](https://blackfan.ru/mime-type/text-vtt.php)                      |
